@@ -3,7 +3,7 @@ import { Product } from "../interfaces";
 
 const ProductCard = (props: Product) => {
   return (
-    <div className="flex flex-col items-center bg-neutral-300 border border-gray-200 rounded-lg shadow">
+    <div className="flex flex-col items-center bg-neutral-300 border border-gray-200 rounded-lg shadow max-w-md">
       <img
         className="object-cover w-full rounded-t-lg h-32"
         src={props.ProductPhotoURL}
