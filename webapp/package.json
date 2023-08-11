@@ -75,6 +75,8 @@
     "@types/react-router-dom": "^5.3.3",
     "autoprefixer": "^10.4.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "msw": "^1.0.1",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
