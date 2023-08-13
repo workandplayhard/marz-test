@@ -42,11 +42,8 @@ const ProductsPage = () => {
     );
   else
     content = (
-      <div
-        className="flex flex-row justify-center w-full pt-4 text-3xl font-bold text-white"
-        data-testid="error-container"
-      >
-        An error occured fetching the data!
+      <div className="flex flex-row justify-center w-full pt-4 text-3xl font-bold text-white">
+        An error occurred fetching the data!
       </div>
     );
 
